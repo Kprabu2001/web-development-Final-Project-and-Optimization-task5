@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/styles.min.css" />
+  <script defer src="js/scripts.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <h2>Hello, I'm a Web Developer</h2>
+    <p>I build fast, responsive websites with modern tools.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <img src="assets/images/placeholder.jpg" data-src="assets/images/project1.jpg" alt="Project 1" class="lazy" />
+        <h3>Project Title</h3>
+        <p>Short description of the project.</p>
+      </div>
+      <div class="card">
+        <img src="assets/images/placeholder.jpg" data-src="assets/images/project1.jpg" alt="Project 2" class="lazy" />
+        <h3>Another Project</h3>
+        <p>Another cool project description.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-box">
+      <img src="assets/images/profile.jpg" alt="Profile" />
+      <p>I'm a passionate frontend developer with experience in HTML, CSS, and JS.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+</body>
+</html>
